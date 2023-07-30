@@ -10,4 +10,5 @@ func main() {
 	fmt.Scan(&floatNum)
 	truncNum := int(floatNum)
 	fmt.Println(truncNum)
+	// could have also used fmt.Printf(%d, truncNum) to print an integer instead of a string
 }
